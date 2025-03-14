@@ -1,0 +1,10 @@
+﻿  Arbitro.cpp
+  Ejemplo 1 Herencia.cpp
+C:\Users\luzma\OneDrive\Escritorio\Laboratorio Sis457\Ejemplo 1 Herencia\Ejemplo 1 Herencia\Arbitro.h(8,11): error C4596: '{ctor}': nombre completo no válido en la declaración de miembro
+  (compilando archivo de origen "Arbitro.cpp")
+  
+C:\Users\luzma\OneDrive\Escritorio\Laboratorio Sis457\Ejemplo 1 Herencia\Ejemplo 1 Herencia\Arbitro.h(9,17): error C4596: 'evaluar': nombre completo no válido en la declaración de miembro
+  (compilando archivo de origen "Arbitro.cpp")
+  
+  Jugador.cpp
+  Generando código...

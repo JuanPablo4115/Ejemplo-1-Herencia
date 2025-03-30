@@ -2,10 +2,25 @@
 //
 
 #include <iostream>
+#include "Jugador.h"
+#include "Arbitro.h"
+#include "Tablero.h"
+#include "JugadorPc.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	srand(static_cast<unsigned int>(time(0)));
+	JugadorPc j5;
+	Jugador j1, j3;
+	Jugador j2(1);
+	Jugador j4(3);
+	j1.seleccionar();
+	j5.seleccionar();
+	Arbitro a1(j1, j5);
+	Tablero t(j1, j5);
+	t.MostrarJugada();
+	t.MostrarGanador(a1);
+	return 0;
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar

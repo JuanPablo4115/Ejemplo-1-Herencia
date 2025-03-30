@@ -130,10 +130,14 @@
     <ClCompile Include="Arbitro.cpp" />
     <ClCompile Include="Ejemplo 1 Herencia.cpp" />
     <ClCompile Include="Jugador.cpp" />
+    <ClCompile Include="JugadorPc.cpp" />
+    <ClCompile Include="Tablero.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arbitro.h" />
     <ClInclude Include="Jugador.h" />
+    <ClInclude Include="JugadorPc.h" />
+    <ClInclude Include="Tablero.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
